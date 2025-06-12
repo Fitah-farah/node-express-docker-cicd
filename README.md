@@ -1,8 +1,10 @@
-[![CI/CD Pipeline](https://github.com/Fitah-farah/node-express-docker-cicd/actions/workflows/deploy.yml/badge.svg)
+![CI/CD Pipeline](https://github.com/Fitah-farah/node-express-docker-cicd/actions/workflows/deploy.yml/badge.svg)
 
 # Node.js + Express App with CI/CD to Azure using Docker, Github, Github actions and Terraform.
 
 This project is a complete a simple cicd pipeline for deploying a Node.js web app using containerized infrastructure and fully automated GitHub Actions workflows. It supports automatic build, push, and deployment on every push to the `master` branch.
+
+[!Diagram](screenshots/diagram.png)
 
 ---
 
@@ -28,6 +30,16 @@ This project is a complete a simple cicd pipeline for deploying a Node.js web ap
    - Deploys the new Docker image to Azure App Service
 
 This means everything — from infrastructure provisioning to app deployment — is automated with a single `git push`.
+
+
+[!push command](screenshots/push.png)
+
+
+[!azur resources](screenshots/azresources.png)
+
+
+[!live app](screenshots/liveapp.png)
+
 
 ---
 ## GitHub Secrets Required

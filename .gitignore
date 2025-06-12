@@ -13,3 +13,5 @@ override.tf
 override.tf.json
 terraform.tfvars
 *.backup
+*.terraform
+*.terraform.lock.hcl
