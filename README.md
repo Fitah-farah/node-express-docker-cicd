@@ -32,13 +32,13 @@ This project is a complete a simple cicd pipeline for deploying a Node.js web ap
 This means everything — from infrastructure provisioning to app deployment — is automated with a single `git push`.
 
 
-[!push command](screenshots/push.png)
+![push command](screenshots/push.png)
 
 
-[!azur resources](screenshots/azresources.png)
+![azur resources](screenshots/azresources.png)
 
 
-[!live app](screenshots/liveapp.png)
+![live app](screenshots/liveapp.png)
 
 
 ---
